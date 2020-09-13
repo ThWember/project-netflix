@@ -1,6 +1,6 @@
 :root {
     --vermelho: #e50914;
-    --preta: #141414;
+    --preto: #141414;
 }
 
 * {
@@ -10,12 +10,25 @@
 }
 
 body {
-    background: var(--preta);
+    background: var(--preto);
     font-family: "Helvetiva", Helvetica, sans-serif;
     padding: 0px;
     margin: 0;
 }
 
 header .container {
-    border
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
 }
