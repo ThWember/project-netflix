@@ -12,8 +12,7 @@
 body {
     background: var(--preto);
     font-family: "Helvetiva", Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0;
+    color: white;
 }
 
 header .container {
@@ -21,10 +20,11 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 40px;
 }
 
 header img {
-    height: 50px;
+    height: 40px;
     margin: 15px;
 }
 
@@ -36,4 +36,19 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0, 0, 0, 0.50)100%),url("images/rupaul-background.jpg");
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.description {
+    width: 40%;
 }
