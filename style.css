@@ -24,7 +24,11 @@ header .container {
 }
 
 header img {
-    height: 35px;
+    height: 40px;
+}
+
+header img.logo {
+    padding-right: 60%;
 }
 
 header nav a {
