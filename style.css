@@ -23,6 +23,11 @@ header .container {
     justify-content: space-between;
 }
 
+header img {
+    height: 50px;
+    margin: 15px;
+}
+
 header nav a {
     text-decoration: none;
     color: #AAA;
