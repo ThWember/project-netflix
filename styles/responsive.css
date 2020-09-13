@@ -1,0 +1,76 @@
+@media (max-width: 1024px) {
+
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 40px;
+    }
+
+    header img.logo {
+            padding-right: 55%;
+        }
+}
+
+@media (max-width: 768px) {
+
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 30px;
+    }
+
+    header img {
+        height: 30px;
+    }
+
+    header img.logo {
+        padding-right: 39%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    header img {
+        height: 25px;
+    }
+
+    header img.logo {
+        padding-right: 15%;
+    }
+
+    header nav a {
+        font-size: 14px;
+        margin-right: 0px;
+    }
+    
+    .main-movie {
+        font-size: 14px;
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0, 0, 0, 0.50)100%),url("../images/rupaul-background.jpg"); 
+        height: 450px;
+    }
+
+    .main-title {
+        margin: 0px 0 25px 31px;
+        font-size: 25px;
+    }
+    
+    .button {
+    font-size: 12px;
+    padding: 8px 18px;
+    margin: 0px 0px 25px 31px;    
+    }
+    
+    .description {
+        width: 80%;
+        margin: 0px 0 25px 31px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    header img.logo {
+        padding-right: 1%;
+    }
+}
