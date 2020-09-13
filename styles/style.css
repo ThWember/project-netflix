@@ -86,3 +86,11 @@ header nav a:hover {
 .button i {
     margin-right: 5px;
 }
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
