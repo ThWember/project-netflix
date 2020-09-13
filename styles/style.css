@@ -43,7 +43,7 @@ header nav a:hover {
 
 .main-movie {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0, 0, 0, 0.50)100%),url("images/rupaul-background.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0, 0, 0, 0.50)100%),url("../images/rupaul-background.jpg"); 
     height: 550px;
     background-size: cover;
     display: flex;
